@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+body {
+  background-color: #02735e;
+  color: white;
+  margin-top: 50px;
+}
+h1 {
+  margin: 30px;
+  font-size: 50px;
+  font-family: "Bungee Shade", cursive;
+}
+nav {
+  margin: auto;
+}
+nav a {
+  display: inline-block;
+  margin: 5px;
+  width: 100px;
+  color: white;
+}
