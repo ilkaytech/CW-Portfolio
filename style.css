@@ -5,21 +5,106 @@
   text-align: center;
 }
 body {
-  background-color: #02735e;
+  background-color: #3d3d3d;
   color: white;
   margin-top: 50px;
 }
 h1 {
-  margin: 30px;
+  margin: 50px;
   font-size: 50px;
   font-family: "Bungee Shade", cursive;
+}
+h2 {
+  margin: 20px;
+  font-size: 50px;
 }
 nav {
   margin: auto;
 }
 nav a {
   display: inline-block;
-  margin: 5px;
+  margin: 10px;
   width: 100px;
   color: white;
+  text-decoration: none;
+  background-color: #84b026;
+  padding: 10px;
+  border-radius: 10px;
+}
+nav a :hover {
+  color: crimson;
+  background-color: darkgoldenrod;
+}
+#clinic .clinic-pic img {
+  border-radius: 10px;
+  margin-top: 100px;
+  width: 40%;
+  height: 40%;
+}
+#clinic {
+  margin-bottom: 450px;
+}
+p {
+  font-family: "rampart One", cursive;
+  font-size: 50px;
+  margin: 100px;
+  color: white;
+}
+h3 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+img {
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+.services-section img:hover {
+  opacity: 0.7;
+}
+.contact {
+  margin-top: 150px;
+  margin-bottom: 500px;
+}
+.contact a {
+  display: inline-block;
+  background-color: d3d3d;
+  color: #84b026;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 25px 25px 25px;
+  text-decoration: none;
+}
+.contact a:hover {
+  color: white;
+}
+h4 {
+  font-size: 34px;
+}
+input {
+  display: block;
+  border: 3px solid #84b026;
+  border-radius: 10px;
+  height: 60px;
+  width: 60%;
+  margin: 15px auto;
+  background: white;
+  font-size: 15px;
+}
+.message {
+  height: 150px;
+}
+button {
+  width: 60%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+}
+button:hover {
+  color: #84b026;
 }

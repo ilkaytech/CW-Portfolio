@@ -24,49 +24,43 @@
   </head>
   <body>
     <header>
-      <h1><span>İlkay Öztürk</span></h1>
+      <h1><span>pethome veteriner</span></h1>
     </header>
     <!-- navbar -->
     <nav>
       <a href="#Home">Home</a>
-      <a href="#About">About</a>
-      <a href="#Project">Project</a>
-      <a href="#Contact">Contact</a>
+      <a href="#clinic">Clinic</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
     </nav>
     <!-- end navbar -->
     <!--  -->
-    <section>
+    <section id="clinic">
+      <div class="clinic-pic">
+        <img src="./img/logo1.jpg" alt="" />
+      </div>
       <p>
-        Hi there 👍 İlkay Öztürk here! I'm a Frontend Developer. I loves
-        coding...
+        Hi there 👍 My name is ilkay Öztürk! I'm a veterinarian.I Like to heal
+        animals ...
       </p>
     </section>
     <!--  -->
-    <section>
-      <h1>My Project</h1>
+    <section id="services" class="services-section">
+      <h2>Services</h2>
       <figure>
-        <img
-          src="https://cdn.pixabay.com/photo/2023/04/28/14/35/dog-7956828_1280.jpg"
-          alt="dog"
-        />
-        <img
-          src="https://cdn.pixabay.com/photo/2012/10/12/17/12/cat-61079_960_720.jpg"
-          alt="cat"
-        />
-        <img
-          src="https://cdn.pixabay.com/photo/2012/03/01/00/28/animal-19621_960_720.jpg"
-          alt=""
-        />
-        <img
-          src="https://cdn.pixabay.com/photo/2016/11/14/15/35/bird-1823839_960_720.jpg"
-          alt=""
-        />
+        <img src="./img/pethome4.jpg" alt="dog" />
+
+        <img src="./img/pethome3.jpg" alt="cat" />
+
+        <img src="./img/pethome5.jpg" alt="" />
+
+        <img src="./img/pethome6.jpg" alt="" />
       </figure>
     </section>
     <!--  -->
-    <section>
-      <h3>Contact Me</h3>
-      <div>
+    <section id="contact">
+      <h3>Contact Us</h3>
+      <div class="contact">
         <a href="https://github.com/ilkaytech/"
           ><i class="fa-brands fa-github"></i>Github</a
         >
@@ -81,9 +75,9 @@
         >
         <h4>Send Message</h4>
         <form action="" class="form" method="get">
-          <input type="text" placeholder="User Name" />
+          <input class="text" placeholder="User Name" />
           <input type="e-mail" placeholder="e-mail" />
-          <input type="class" type="tex" placeholder="Your Message" />
+          <input class="message" type="text" placeholder="Your Message" />
           <button><i class="fa-solid fa-comment-sms"></i>SEND</button>
         </form>
       </div>
